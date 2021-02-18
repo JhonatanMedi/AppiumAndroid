@@ -26,7 +26,7 @@ try {
 	public static void abrirAplicacion() throws Exception {
 
 		DesiredCapabilities cap = new DesiredCapabilities();
-		cap.setCapability("deviceName", "HUAWEI Mate 20 lite"); // Nombre del dispositivo que van colocar
+		cap.setCapability("deviceName", "HUAWEI Mate 20 lite"); // Nombre dispositivo que van colocar
 		cap.setCapability("udid", "NWB0218925000291");//nombre de dispotivo al hacer comando "adb devices"
 		cap.setCapability("platformName", "android");// sistema operativo 
 		cap.setCapability("platformVersion", "10");// version del android
